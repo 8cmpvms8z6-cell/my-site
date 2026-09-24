@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle { font-size: 16px; color: #a0a0b0; margin-bottom: 30px; }
+        .section { margin-bottom: 25px; text-align: left; }
+        .section h2 { font-size: 18px; margin-bottom: 12px; }
+        .section p { color: #b0b0c0; line-height: 1.6; font-size: 14px; }
+        .links { display: flex; flex-direction: column; gap: 12px; margin-top: 20px; }
+        .link-btn {
+            display: block;
+            padding: 14px 20px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .link-btn:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 12px;
+            color: #707080;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">😈</div>
+        <h1>Привет, я [Ezkhha]</h1>
+        <p class="subtitle">Делаю ботов в Telegram</p>
+
+        <div class="section">
+            <h2>Обо мне</h2>
+            <p>Мне 19 лет, учусь в ПТУ, изучаю Python и создаю Telegram-ботов.</p>
+        </div>
+
+        <div class="section">
+            <h2>Мои проекты</h2>
+            <p>Тролль-бот в Telegram — умеет передразнивать, кидать мемы и отвечать с задержкой.</p>
+        </div>
+
+        <div class="links">
+            <a href="https://t.me/Troll_999_bot" class="link-btn" target="_blank">
+                🤖 Мой тролль-бот в Telegram
+            </a>
+            <a href="https://github.com/8cmpvms8z6-cell" class="link-btn" target="_blank">
+                💻 Мой GitHub
+            </a>
+        </div>
+
+        <div class="footer">
+            © 2026 [Ezkhha]. Сделано с ❤️
+        </div>
+    </div>
+</body>
+</html>
